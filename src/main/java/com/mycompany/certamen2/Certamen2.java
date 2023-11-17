@@ -5,6 +5,8 @@
 
 package com.mycompany.certamen2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Estudiante
@@ -12,6 +14,11 @@ package com.mycompany.certamen2;
 public class Certamen2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Libro libros = new Libro();
+        libros.insertarDatos();
+       
+        Libro nuevo= libros.busca_Libro("2");
+        nuevo.mostrarDatos();
     }
 }
