@@ -75,7 +75,7 @@ public class Libro {
     
     public Libro busca_Libro(String codigo)
     {
-        
+        int a =2;
         for(int i = 0; i< this.libros.size(); i++)
         {
             if(codigo.equals(libros.get(i).getCodigo()))
